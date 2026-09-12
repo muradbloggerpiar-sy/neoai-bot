@@ -36,4 +36,4 @@ def chat(message):
         bot.reply_to(message, "Ошибка. Попробуй позже.")
 
 threading.Thread(target=run_web).start()
-bot.polling(none_stop=True)
+bot.infinity_polling()
